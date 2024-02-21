@@ -6,7 +6,7 @@ func reverse(x int) int {
 	for x != 0 {
 		digit := x % 10
 		reversed_int = reversed_int*10 + digit
-		x = int(x / 10)
+		x = x / 10
 	}
 	if reversed_int <= yB && reversed_int >= xB {
 		return reversed_int
